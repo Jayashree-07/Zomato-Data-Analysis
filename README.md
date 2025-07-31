@@ -526,7 +526,5 @@ Plan Seasonal Campaigns: Develop season-specific menus and targeted offers for s
 
 Promote Best-Selling Dishes: Use regional best-selling items in targeted advertising and bundled offers to drive repeat sales.
 
-### **conclusion**
-
 ## Conclusion
 This project showcases my ability to use advanced SQL queries to solve real-world business problems within a food delivery context. The structured approach demonstrates strong skills in data manipulation and the ability to extract meaningful, actionable insights from data.
