@@ -21,6 +21,8 @@ CREATE DATABASE Zomato_db;
 
 -- 1. Defining the essential table structures.
 -- Table to store customer information
+
+
 create table customers (
     customer_id int primary key,
     customer_name varchar(30),
@@ -28,6 +30,8 @@ create table customers (
 );
 
 -- Table to store restaurant details
+
+
 Create table restaurants (
 	restaurant_id int primary key,
     restaurant_name varchar(55),
@@ -36,6 +40,8 @@ Create table restaurants (
 );
 
 -- Table to store order details and their relationships
+
+
 create table orders(
     order_id int primary key,
     customer_id int,
@@ -50,6 +56,8 @@ create table orders(
 );
 
 -- Table for delivery rider details
+
+
 create table riders(
     rider_id int primary key,
     rider_name varchar(30),
@@ -57,6 +65,8 @@ create table riders(
 );
 
 -- Table for delivery status and information
+
+
 create table deliveries(
     delivery_id int primary key,
     order_id int,
