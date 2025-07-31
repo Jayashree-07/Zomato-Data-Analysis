@@ -485,7 +485,9 @@ delimiter ;
 call customer_details(1);
 
 
-##Query Optimization
+
+```
+## Query Optimization 
 Indexed customer_name, order_date, order_status, and delivery_status columns to improve query performance.
 
 Avoided using SELECT * by specifying only the necessary columns in select statements.
@@ -494,7 +496,9 @@ Leveraged Common Table Expressions (CTEs) and JOINs to handle complex queries mo
 
 Utilized JOINs thoughtfully to minimize redundant data and improve query execution speed.
 
-##Key Insights
+
+## Key Insights 
+
 Peak Ordering Time: The majority of orders are placed between 2 PM and 4 PM, with minimal activity observed from 12 AM to 2 AM.
 
 Top Customers: Customers with IDs 6, 7, and 5 are highly valuable, each placing over 750 orders with an average order value of ₹300–₹350.
@@ -507,7 +511,9 @@ Underperforming Riders: Riders with IDs 1, 2, 3, and 4 consistently show longer 
 
 Top-Selling Items by City: Popular dishes like Chicken Biryani, Mutton Rogan Josh, and Paneer Butter Masala are consistently best-sellers across major cities.
 
-##Actionable Recommendations
+
+## Actionable Recommendations
+
 Introduce Late-Night Offers: Create special discounts or combo deals to encourage more orders during the low-activity period of 12 AM to 2 AM.
 
 Reward Loyal Customers: Implement a VIP program or exclusive deals for high-frequency customers to increase retention and loyalty.
@@ -520,5 +526,7 @@ Plan Seasonal Campaigns: Develop season-specific menus and targeted offers for s
 
 Promote Best-Selling Dishes: Use regional best-selling items in targeted advertising and bundled offers to drive repeat sales.
 
-##Conclusion
+### *conclusion*
+
+## Conclusion
 This project showcases my ability to use advanced SQL queries to solve real-world business problems within a food delivery context. The structured approach demonstrates strong skills in data manipulation and the ability to extract meaningful, actionable insights from data.
